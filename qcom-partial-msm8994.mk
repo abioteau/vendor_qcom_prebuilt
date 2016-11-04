@@ -21,23 +21,32 @@ PRODUCT_PACKAGES += \
 	pm-proxy \
 	pm-service \
 	qmuxd \
+	qseecomd \
 	rmt_storage \
 	sct_service \
 	sensors \
 	ta_qmi_service \
 	tad_static \
+	gatekeeper.msm8994 \
 	sensors.msm8994 \
+	lib-sec-disp \
 	libQSEEComAPI \
+	libSecureUILib \
+	libStDrvInt \
 	libactuator_bu64291gwz \
 	libactuator_bu64291gwz_camcorder \
 	libactuator_bu64291gwz_camera \
 	libactuator_bu64295g \
 	libactuator_bu64295g_camcorder \
 	libactuator_bu64295g_camera \
+	libactuator_bu64747gwz \
+	libactuator_bu64747gwz_camcorder \
+	libactuator_bu64747gwz_camera \
 	libactuator_dw9719 \
 	libactuator_dw9719_camcorder \
 	libactuator_dw9719_camera \
 	libadsprpc \
+	libchromaflash \
 	libchromatix_imx134_common \
 	libchromatix_imx134_cpp_liveshot \
 	libchromatix_imx134_cpp_preview \
@@ -68,15 +77,27 @@ PRODUCT_PACKAGES += \
 	libchromatix_imx241_postproc \
 	libchromatix_imx241_preview \
 	libchromatix_imx241_snapshot \
+	libchromatix_imx300_common \
+	libchromatix_imx300_cpp_liveshot \
+	libchromatix_imx300_cpp_preview \
+	libchromatix_imx300_cpp_snapshot \
+	libchromatix_imx300_cpp_video \
+	libchromatix_imx300_default_video \
+	libchromatix_imx300_liveshot \
+	libchromatix_imx300_postproc \
+	libchromatix_imx300_preview \
+	libchromatix_imx300_snapshot \
 	libconfigdb \
 	libdiag \
 	libdrmfs \
+	libdrmtime \
 	libdsi_netctrl \
 	libdsutils \
 	libfastcvadsp_stub \
 	libfastcvopt \
 	libflash_pmic \
 	libidl \
+	libllvd_smore \
 	libloc_api_v02 \
 	libloc_ds_api \
 	libmdmdetect \
@@ -98,6 +119,7 @@ PRODUCT_PACKAGES += \
 	libmmcamera2_vpe_module \
 	libmmcamera2_wnr_module \
 	libmmcamera_cac2_lib \
+	libmmcamera_chromaflash_lib \
 	libmmcamera_eeprom_util \
 	libmmcamera_eztune_module \
 	libmmcamera_faceproc \
@@ -107,8 +129,10 @@ PRODUCT_PACKAGES += \
 	libmmcamera_imx134a \
 	libmmcamera_imx200b \
 	libmmcamera_imx241 \
+	libmmcamera_imx300 \
 	libmmcamera_isp_abf44 \
 	libmmcamera_isp_bcc44 \
+	libmmcamera_isp_be_stats44 \
 	libmmcamera_isp_bf_scale_stats46 \
 	libmmcamera_isp_bf_stats44 \
 	libmmcamera_isp_bg_stats46 \
@@ -148,16 +172,24 @@ PRODUCT_PACKAGES += \
 	libmmcamera_isp_sce40 \
 	libmmcamera_isp_sub_module \
 	libmmcamera_isp_wb46 \
+	libmmcamera_llvd \
+	libmmcamera_optizoom_lib \
+	libmmcamera_pdaf \
+	libmmcamera_pdafcamif \
 	libmmcamera_ppbase_module \
+	libmmcamera_stillmore_lib \
 	libmmcamera_tintless_algo \
 	libmmcamera_tintless_bg_pca_algo \
+	libmmcamera_trueportrait_lib \
 	libmmcamera_tuning \
+	libmmcamera_ubifocus_lib \
 	libmmcamera_vpu_module \
 	libmmjpeg \
 	libmmqjpeg_codec \
 	libmmqjpegdma \
 	libnetmgr \
 	liboemcamera \
+	liboptizoom \
 	libperipheral_client \
 	libqcci_legacy \
 	libqdi \
@@ -177,6 +209,10 @@ PRODUCT_PACKAGES += \
 	libril-qc-qmi-2 \
 	libril-qcril-hook-oem \
 	librpmb \
+	libsecureui \
+	libsecureui_svcsock \
+	libsecureuisvc_jni \
+	libseemore \
 	libsensor1 \
 	libsensor_reg \
 	libsmemlog \
@@ -184,4 +220,6 @@ PRODUCT_PACKAGES += \
 	libsystem_health_mon \
 	libta \
 	libtime_genoff \
+	libtrueportrait \
+	libubifocus \
 	libxml

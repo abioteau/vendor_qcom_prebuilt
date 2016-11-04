@@ -13,7 +13,6 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	hci_qcomm_init \
 	irsc_util \
 	mlog_qmi_service \
 	mm-qcamera-daemon \
@@ -21,12 +20,12 @@ PRODUCT_PACKAGES += \
 	pm-proxy \
 	pm-service \
 	qmuxd \
+	qseecomd \
 	rmt_storage \
 	sct_service \
 	sensors \
 	ta_qmi_service \
 	tad_static \
-	wcnss_service \
 	libQSEEComAPI \
 	libactuator_bu64291gwz \
 	libactuator_bu64291gwz_camcorder \
@@ -35,6 +34,7 @@ PRODUCT_PACKAGES += \
 	libactuator_dw9714_camcorder \
 	libactuator_dw9714_camera \
 	libadsprpc \
+	libchromaflash \
 	libchromatix_imx134_common \
 	libchromatix_imx134_cpp_liveshot \
 	libchromatix_imx134_cpp_preview \
@@ -61,25 +61,17 @@ PRODUCT_PACKAGES += \
 	libchromatix_imx135_postproc \
 	libchromatix_imx135_preview \
 	libchromatix_imx135_snapshot \
-	libchromatix_imx188_common \
-	libchromatix_imx188_cpp_liveshot \
-	libchromatix_imx188_cpp_preview \
-	libchromatix_imx188_cpp_snapshot \
-	libchromatix_imx188_cpp_video \
-	libchromatix_imx188_default_video \
-	libchromatix_imx188_liveshot \
-	libchromatix_imx188_postproc \
-	libchromatix_imx188_preview \
-	libchromatix_imx188_snapshot \
 	libconfigdb \
 	libdiag \
 	libdrmfs \
+	libdrmtime \
 	libdsi_netctrl \
 	libdsutils \
 	libfastcvadsp_stub \
 	libfastcvopt \
 	libflash_pmic \
 	libidl \
+	libllvd_smore \
 	libloc_api_v02 \
 	libloc_ds_api \
 	libmdmdetect \
@@ -101,6 +93,7 @@ PRODUCT_PACKAGES += \
 	libmmcamera2_vpe_module \
 	libmmcamera2_wnr_module \
 	libmmcamera_cac2_lib \
+	libmmcamera_chromaflash_lib \
 	libmmcamera_eeprom_util \
 	libmmcamera_eztune_module \
 	libmmcamera_faceproc \
@@ -108,14 +101,6 @@ PRODUCT_PACKAGES += \
 	libmmcamera_imglib \
 	libmmcamera_imx134 \
 	libmmcamera_imx135 \
-	libmmcamera_imx188 \
-	libmmcamera_isp_abf40 \
-	libmmcamera_isp_bcc40 \
-	libmmcamera_isp_be_stats44 \
-	libmmcamera_isp_bf_stats40 \
-	libmmcamera_isp_bg_stats44 \
-	libmmcamera_isp_bhist_stats44 \
-	libmmcamera_isp_bpc40 \
 	libmmcamera_isp_chroma_enhan40 \
 	libmmcamera_isp_chroma_suppress40 \
 	libmmcamera_isp_clamp_encoder40 \
@@ -124,8 +109,6 @@ PRODUCT_PACKAGES += \
 	libmmcamera_isp_color_correct40 \
 	libmmcamera_isp_color_xform_encoder40 \
 	libmmcamera_isp_color_xform_viewfinder40 \
-	libmmcamera_isp_cs_stats44 \
-	libmmcamera_isp_demosaic40 \
 	libmmcamera_isp_demux40 \
 	libmmcamera_isp_fovcrop_encoder40 \
 	libmmcamera_isp_fovcrop_viewfinder40 \
@@ -134,23 +117,29 @@ PRODUCT_PACKAGES += \
 	libmmcamera_isp_linearization40 \
 	libmmcamera_isp_luma_adaptation40 \
 	libmmcamera_isp_mce40 \
-	libmmcamera_isp_mesh_rolloff40 \
-	libmmcamera_isp_rs_stats44 \
 	libmmcamera_isp_scaler_encoder40 \
 	libmmcamera_isp_scaler_viewfinder40 \
 	libmmcamera_isp_sce40 \
 	libmmcamera_isp_sub_module \
 	libmmcamera_isp_wb40 \
+	libmmcamera_llvd \
+	libmmcamera_optizoom_lib \
+	libmmcamera_pdaf \
+	libmmcamera_pdafcamif \
 	libmmcamera_ppbase_module \
+	libmmcamera_stillmore_lib \
 	libmmcamera_tintless_algo \
 	libmmcamera_tintless_bg_pca_algo \
+	libmmcamera_trueportrait_lib \
 	libmmcamera_tuning \
+	libmmcamera_ubifocus_lib \
 	libmmcamera_vpu_module \
 	libmmjpeg \
 	libmmqjpeg_codec \
 	libmmqjpegdma \
 	libnetmgr \
 	liboemcamera \
+	liboptizoom \
 	libperipheral_client \
 	libqcci_legacy \
 	libqdi \
@@ -169,12 +158,13 @@ PRODUCT_PACKAGES += \
 	libril-qc-qmi-1 \
 	libril-qc-qmi-2 \
 	libril-qcril-hook-oem \
-	librpmb \
+	libseemore \
 	libsensor1 \
 	libsensor_reg \
 	libsmemlog \
-	libssd \
 	libsystem_health_mon \
 	libta \
 	libtime_genoff \
+	libtrueportrait \
+	libubifocus \
 	libxml

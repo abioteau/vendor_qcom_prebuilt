@@ -13,7 +13,6 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	hci_qcomm_init \
 	irsc_util \
 	mlog_qmi_service \
 	mm-qcamera-daemon \
@@ -21,6 +20,7 @@ PRODUCT_PACKAGES += \
 	pm-proxy \
 	pm-service \
 	qmuxd \
+	qseecomd \
 	rmt_storage \
 	sct_service \
 	sensors \
@@ -41,6 +41,7 @@ PRODUCT_PACKAGES += \
 	libactuator_dw9719_camcorder \
 	libactuator_dw9719_camera \
 	libadsprpc \
+	libchromaflash \
 	libchromatix_imx132_common \
 	libchromatix_imx132_cpp_liveshot \
 	libchromatix_imx132_cpp_preview \
@@ -74,12 +75,14 @@ PRODUCT_PACKAGES += \
 	libconfigdb \
 	libdiag \
 	libdrmfs \
+	libdrmtime \
 	libdsi_netctrl \
 	libdsutils \
 	libfastcvadsp_stub \
 	libfastcvopt \
 	libflash_pmic \
 	libidl \
+	libllvd_smore \
 	libloc_api_v02 \
 	libloc_ds_api \
 	libmdmdetect \
@@ -101,6 +104,7 @@ PRODUCT_PACKAGES += \
 	libmmcamera2_vpe_module \
 	libmmcamera2_wnr_module \
 	libmmcamera_cac2_lib \
+	libmmcamera_chromaflash_lib \
 	libmmcamera_eeprom_util \
 	libmmcamera_eztune_module \
 	libmmcamera_faceproc \
@@ -143,16 +147,24 @@ PRODUCT_PACKAGES += \
 	libmmcamera_isp_sce40 \
 	libmmcamera_isp_sub_module \
 	libmmcamera_isp_wb40 \
+	libmmcamera_llvd \
+	libmmcamera_optizoom_lib \
+	libmmcamera_pdaf \
+	libmmcamera_pdafcamif \
 	libmmcamera_ppbase_module \
+	libmmcamera_stillmore_lib \
 	libmmcamera_tintless_algo \
 	libmmcamera_tintless_bg_pca_algo \
+	libmmcamera_trueportrait_lib \
 	libmmcamera_tuning \
+	libmmcamera_ubifocus_lib \
 	libmmcamera_vpu_module \
 	libmmjpeg \
 	libmmqjpeg_codec \
 	libmmqjpegdma \
 	libnetmgr \
 	liboemcamera \
+	liboptizoom \
 	libperipheral_client \
 	libqcci_legacy \
 	libqdi \
@@ -171,12 +183,13 @@ PRODUCT_PACKAGES += \
 	libril-qc-qmi-1 \
 	libril-qc-qmi-2 \
 	libril-qcril-hook-oem \
-	librpmb \
+	libseemore \
 	libsensor1 \
 	libsensor_reg \
 	libsmemlog \
-	libssd \
 	libsystem_health_mon \
 	libta \
 	libtime_genoff \
+	libtrueportrait \
+	libubifocus \
 	libxml
