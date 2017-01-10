@@ -29,44 +29,9 @@ PRODUCT_PACKAGES += \
 	tad_static \
 	sensors.msm8952 \
 	libQSEEComAPI \
-	libactuator_bu64747gwz \
+	libactuator_bu64747 \
+	libactuator_pseudo \
 	libadsprpc \
-	libchromatix_imx214_common \
-	libchromatix_imx214_cpp_liveshot \
-	libchromatix_imx214_cpp_preview \
-	libchromatix_imx214_cpp_snapshot \
-	libchromatix_imx214_cpp_video \
-	libchromatix_imx214_default_preview \
-	libchromatix_imx214_default_video \
-	libchromatix_imx214_liveshot \
-	libchromatix_imx214_postproc \
-	libchromatix_imx214_preview \
-	libchromatix_imx214_snapshot \
-	libchromatix_imx214_video \
-	libchromatix_imx241_common \
-	libchromatix_imx241_cpp_liveshot \
-	libchromatix_imx241_cpp_preview \
-	libchromatix_imx241_cpp_snapshot \
-	libchromatix_imx241_cpp_video \
-	libchromatix_imx241_default_preview \
-	libchromatix_imx241_default_video \
-	libchromatix_imx241_liveshot \
-	libchromatix_imx241_postproc \
-	libchromatix_imx241_preview \
-	libchromatix_imx241_snapshot \
-	libchromatix_imx241_video \
-	libchromatix_imx300_common \
-	libchromatix_imx300_cpp_liveshot \
-	libchromatix_imx300_cpp_preview \
-	libchromatix_imx300_cpp_snapshot \
-	libchromatix_imx300_cpp_video \
-	libchromatix_imx300_default_preview_bu64747gwz \
-	libchromatix_imx300_default_video_bu64747gwz \
-	libchromatix_imx300_liveshot \
-	libchromatix_imx300_postproc \
-	libchromatix_imx300_preview \
-	libchromatix_imx300_snapshot \
-	libchromatix_imx300_video \
 	libconfigdb \
 	libdiag \
 	libdrmfs \
@@ -89,22 +54,24 @@ PRODUCT_PACKAGES += \
 	libmmcamera2_imglib_modules \
 	libmmcamera2_isp_modules \
 	libmmcamera2_mct \
+	libmmcamera2_mct_shimlayer \
 	libmmcamera2_pp_buf_mgr \
 	libmmcamera2_pproc_modules \
-	libmmcamera2_sensor_debug \
 	libmmcamera2_sensor_modules \
 	libmmcamera2_stats_modules \
-	libmmcamera2_vpe_module \
-	libmmcamera2_wnr_module \
 	libmmcamera_csidtg \
+	libmmcamera_dbg \
+	libmmcamera_dummyalgo \
+	libmmcamera_eebinparse \
 	libmmcamera_eeprom_util \
 	libmmcamera_eztune_module \
 	libmmcamera_faceproc \
+	libmmcamera_faceproc2 \
 	libmmcamera_imglib \
+	libmmcamera_imglib_faceproc_adspstub \
 	libmmcamera_imx214 \
-	libmmcamera_imx241_1 \
-	libmmcamera_imx300h \
-	libmmcamera_imx300l \
+	libmmcamera_imx241 \
+	libmmcamera_imx300 \
 	libmmcamera_isp_abcc44 \
 	libmmcamera_isp_abf40 \
 	libmmcamera_isp_bcc40 \
@@ -138,16 +105,18 @@ PRODUCT_PACKAGES += \
 	libmmcamera_isp_scaler_viewfinder44 \
 	libmmcamera_isp_sce40 \
 	libmmcamera_isp_sub_module \
+	libmmcamera_isp_template \
 	libmmcamera_isp_wb40 \
 	libmmcamera_ppbase_module \
+	libmmcamera_sw2d_lib \
 	libmmcamera_thread_services \
 	libmmcamera_tuning \
 	libmmcamera_tuning_lookup \
-	libmmcamera_vpu_module \
 	libmmjpeg \
 	libmmqjpeg_codec \
 	libmmqjpegdma \
 	libnetmgr \
+	libois_lc898122 \
 	libperipheral_client \
 	libqcci_legacy \
 	libqdi \
@@ -163,12 +132,60 @@ PRODUCT_PACKAGES += \
 	libqomx_jpegdec \
 	libqomx_jpegenc \
 	libqomx_jpegenc_pipe \
+	libril-qc-ltedirectdisc \
 	libril-qc-qmi-1 \
-	libril-qc-qmi-2 \
+	libril-qc-radioconfig \
 	libril-qcril-hook-oem \
+	librilqmiservices \
 	librpmb \
 	libsensor1 \
 	libsensor_reg \
+	libsettings \
+	libsmemlog \
+	libssd \
+	libsystem_health_mon \
+	libta \
+	libtime_genoff \
+	libxml \
+	gatekeeper.msm8952 \
+	keystore.msm8952 \
+	sensors.msm8952 \
+	libQSEEComAPI \
+	libadsprpc \
+	libconfigdb \
+	libdiag \
+	libdrmfs \
+	libdrmtime \
+	libdsi_netctrl \
+	libdsutils \
+	libidl \
+	libloc_api_v02 \
+	libloc_ds_api \
+	liblqe \
+	libmdmdetect \
+	libmiscta \
+	libnetmgr \
+	libperipheral_client \
+	libqcci_legacy \
+	libqdi \
+	libqdp \
+	libqmi \
+	libqmi_cci \
+	libqmi_client_helper \
+	libqmi_client_qmux \
+	libqmi_common_so \
+	libqmi_csi \
+	libqmi_encdec \
+	libqmiservices \
+	libril-qc-ltedirectdisc \
+	libril-qc-qmi-1 \
+	libril-qc-radioconfig \
+	libril-qcril-hook-oem \
+	librilqmiservices \
+	librpmb \
+	libsensor1 \
+	libsensor_reg \
+	libsettings \
 	libsmemlog \
 	libssd \
 	libsystem_health_mon \

@@ -14,6 +14,38 @@
 
 PRODUCT_PACKAGES += \
 	libchromaflash \
+	libchromatix_imx214_common \
+	libchromatix_imx214_cpp_liveshot \
+	libchromatix_imx214_cpp_preview \
+	libchromatix_imx214_cpp_snapshot \
+	libchromatix_imx214_cpp_video \
+	libchromatix_imx214_default_preview_lc898217 \
+	libchromatix_imx214_default_video_lc898217 \
+	libchromatix_imx214_postproc \
+	libchromatix_imx214_preview \
+	libchromatix_imx214_snapshot \
+	libchromatix_imx214_video \
+	libchromatix_imx241_common \
+	libchromatix_imx241_cpp_liveshot \
+	libchromatix_imx241_cpp_preview \
+	libchromatix_imx241_cpp_snapshot \
+	libchromatix_imx241_cpp_video \
+	libchromatix_imx241_default_preview \
+	libchromatix_imx241_default_video \
+	libchromatix_imx241_postproc \
+	libchromatix_imx241_preview \
+	libchromatix_imx241_snapshot \
+	libchromatix_imx241_video \
+	libchromatix_imx300_common \
+	libchromatix_imx300_cpp_liveshot \
+	libchromatix_imx300_cpp_preview \
+	libchromatix_imx300_cpp_snapshot \
+	libchromatix_imx300_cpp_video \
+	libchromatix_imx300_default_preview_bu64747 \
+	libchromatix_imx300_default_video_bu64747 \
+	libchromatix_imx300_postproc \
+	libchromatix_imx300_preview \
+	libchromatix_imx300_snapshot \
 	libfastcvadsp_stub \
 	libfastcvopt \
 	libmmcamera2_frame_algorithm \
@@ -21,14 +53,20 @@ PRODUCT_PACKAGES += \
 	libmmcamera2_q3a_core \
 	libmmcamera2_stats_algorithm \
 	libmmcamera_chromaflash_lib \
+	libmmcamera_facedetection_lib \
 	libmmcamera_hdr_gb_lib \
+	libmmcamera_llvd \
+	libmmcamera_optizoom_lib \
+	libmmcamera_paaf_lib \
 	libmmcamera_pdaf \
 	libmmcamera_pdafcamif \
+	libmmcamera_ppeiscore \
 	libmmcamera_stillmore_lib \
 	libmmcamera_tintless_algo \
 	libmmcamera_tintless_bg_pca_algo \
 	libmmcamera_trueportrait_lib \
 	libmmcamera_ubifocus_lib \
+	liboptizoom \
 	libseemore \
 	libtrueportrait \
 	libubifocus
