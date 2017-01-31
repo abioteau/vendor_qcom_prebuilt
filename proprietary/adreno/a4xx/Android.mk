@@ -16,6 +16,26 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter kanuti kitakami, $(PRODUCT_PLATFORM)), )
 include $(CLEAR_VARS)
+LOCAL_MODULE := a420_pfp
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/firmware/a420_pfp.fw
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .fw
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := a420_pm4
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/firmware/a420_pm4.fw
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .fw
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := eglSubDriverAndroid
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/egl/eglSubDriverAndroid.so

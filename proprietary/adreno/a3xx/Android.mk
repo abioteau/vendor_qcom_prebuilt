@@ -16,6 +16,28 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter rhine shinano, $(PRODUCT_PLATFORM)), )
 include $(CLEAR_VARS)
+LOCAL_MODULE := a330_pfp
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/firmware/a330_pfp.fw
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .fw
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := a330_pm4
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/firmware/a330_pm4.fw
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .fw
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := eglsubAndroid
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/egl/eglsubAndroid.so
