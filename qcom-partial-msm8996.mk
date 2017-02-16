@@ -28,10 +28,44 @@ PRODUCT_PACKAGES += \
 	gatekeeper.msm8996 \
 	keystore.msm8996 \
 	sensors.msm8996 \
+	vulkan.msm8996 \
 	libQSEEComAPI \
 	libactuator_bu64747 \
+	libactuator_lc898217 \
 	libactuator_pseudo \
 	libadsprpc \
+	libchromatix_imx214_common \
+	libchromatix_imx214_cpp_liveshot \
+	libchromatix_imx214_cpp_preview \
+	libchromatix_imx214_cpp_snapshot \
+	libchromatix_imx214_cpp_video \
+	libchromatix_imx214_default_preview_lc898217 \
+	libchromatix_imx214_default_video_lc898217 \
+	libchromatix_imx214_postproc \
+	libchromatix_imx214_preview \
+	libchromatix_imx214_snapshot \
+	libchromatix_imx214_video \
+	libchromatix_imx241_common \
+	libchromatix_imx241_cpp_liveshot \
+	libchromatix_imx241_cpp_preview \
+	libchromatix_imx241_cpp_snapshot \
+	libchromatix_imx241_cpp_video \
+	libchromatix_imx241_default_preview \
+	libchromatix_imx241_default_video \
+	libchromatix_imx241_postproc \
+	libchromatix_imx241_preview \
+	libchromatix_imx241_snapshot \
+	libchromatix_imx241_video \
+	libchromatix_imx300_common \
+	libchromatix_imx300_cpp_liveshot \
+	libchromatix_imx300_cpp_preview \
+	libchromatix_imx300_cpp_snapshot \
+	libchromatix_imx300_cpp_video \
+	libchromatix_imx300_default_preview_bu64747 \
+	libchromatix_imx300_default_video_bu64747 \
+	libchromatix_imx300_postproc \
+	libchromatix_imx300_preview \
+	libchromatix_imx300_snapshot \
 	libconfigdb \
 	libdiag \
 	libdrmfs \
@@ -43,8 +77,6 @@ PRODUCT_PACKAGES += \
 	libjpegdhw \
 	libjpegdmahw \
 	libjpegehw \
-	libloc_api_v02 \
-	libloc_ds_api \
 	liblqe \
 	libmdmdetect \
 	libmiscta \
@@ -159,6 +191,7 @@ PRODUCT_PACKAGES += \
 	gatekeeper.msm8996 \
 	keystore.msm8996 \
 	sensors.msm8996 \
+	vulkan.msm8996 \
 	libQSEEComAPI \
 	libadsprpc \
 	libconfigdb \
@@ -168,8 +201,6 @@ PRODUCT_PACKAGES += \
 	libdsi_netctrl \
 	libdsutils \
 	libidl \
-	libloc_api_v02 \
-	libloc_ds_api \
 	liblqe \
 	libmdmdetect \
 	libmiscta \
