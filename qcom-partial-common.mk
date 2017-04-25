@@ -13,6 +13,10 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
+	libadsp_default_listener \
+	libadsp_hvx_callback_skel \
+	libadsp_hvx_stub \
+	libadsprpc \
 	libchromaflash \
 	libfastcvadsp_stub \
 	libfastcvopt \
@@ -37,4 +41,26 @@ PRODUCT_PACKAGES += \
 	liboptizoom \
 	libseemore \
 	libtrueportrait \
-	libubifocus
+	libubifocus \
+	libAMF_hexagon_skel \
+	libadsp_fd_skel \
+	libadsp_hvx_add_constant \
+	libadsp_hvx_skel \
+	libadsp_hvx_stats \
+	libadsp_hvx_zzhdr_BGGR \
+	libadsp_hvx_zzhdr_RGGB \
+	libapps_mem_heap \
+	libdspCV_skel \
+	libfastcvadsp \
+	libfastcvadsp_skel \
+	libmare_hexagon_skel \
+	libobjectMattingApp_skel \
+	libscveBlobDescriptor_skel \
+	libscveCleverCapture_skel \
+	libscveFaceRecognition_skel \
+	libscveObjectSegmentation_skel \
+	libscveT2T_skel \
+	libscveTextReco_skel \
+	libvpp_frc \
+	libvpp_svc_skel \
+	us-syncproximity

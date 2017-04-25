@@ -13,6 +13,8 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
+	a420_pfp \
+	a420_pm4 \
 	a530_gpmu \
 	a530_pfp \
 	a530_pm4 \
@@ -33,6 +35,7 @@ PRODUCT_PACKAGES += \
 	libQTapGLES \
 	libq3dtools_adreno \
 	libq3dtools_esx \
+	vulkan.msm8996 \
 	libC2D2 \
 	libCB \
 	libOpenCL \
@@ -45,28 +48,7 @@ PRODUCT_PACKAGES += \
 	libgsl \
 	libllvm-glnext \
 	libllvm-qcom \
-	libmm-qdcm \
-	librs_adreno \
-	librs_adreno_sha1 \
-	eglSubDriverAndroid \
-	libEGL_adreno \
-	libGLESv1_CM_adreno \
-	libGLESv2_adreno \
-	libQTapGLES \
-	libq3dtools_adreno \
-	libq3dtools_esx \
-	libC2D2 \
-	libCB \
-	libOpenCL \
-	libRSDriver_adreno \
-	libadreno_utils \
-	libc2d30-a3xx \
-	libc2d30-a4xx \
-	libc2d30-a5xx \
-	libc2d30_bltlib \
-	libgsl \
-	libllvm-glnext \
-	libllvm-qcom \
+	libllvm-qgl \
 	libmm-qdcm \
 	librs_adreno \
 	librs_adreno_sha1
