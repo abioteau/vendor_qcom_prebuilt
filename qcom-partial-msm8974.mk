@@ -28,11 +28,18 @@ PRODUCT_PACKAGES += \
 	tad_static \
 	sensors.msm8974 \
 	libQSEEComAPI \
+	libacdb-fts \
+	libacdbloader \
+	libacdbmapper \
+	libacdbrtac \
 	libactuator_bu64291g \
 	libactuator_bu64295g \
 	libactuator_bu64296g \
 	libactuator_dw9719 \
+	libadiertac \
 	libadsprpc \
+	libaudcal \
+	libaudioalsa \
 	libchromatix_imx132_common \
 	libchromatix_imx132_cpp_liveshot \
 	libchromatix_imx132_cpp_preview \
@@ -151,6 +158,7 @@ PRODUCT_PACKAGES += \
 	libmmqjpeg_codec \
 	libmmqjpegdma \
 	libnetmgr \
+	libomx-dts \
 	libperipheral_client \
 	libqcci_legacy \
 	libqdi \

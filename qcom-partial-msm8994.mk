@@ -30,12 +30,19 @@ PRODUCT_PACKAGES += \
 	gatekeeper.msm8994 \
 	sensors.msm8994 \
 	libQSEEComAPI \
+	libacdb-fts \
+	libacdbloader \
+	libacdbmapper \
+	libacdbrtac \
 	libactuator_bu64291g \
 	libactuator_bu64295g \
 	libactuator_bu64296g \
 	libactuator_bu64747gwz \
 	libactuator_dw9719 \
+	libadiertac \
 	libadsprpc \
+	libaudcal \
+	libaudioalsa \
 	libchromatix_imx134_common \
 	libchromatix_imx134_cpp_liveshot \
 	libchromatix_imx134_cpp_preview \
@@ -125,8 +132,7 @@ PRODUCT_PACKAGES += \
 	libmmcamera_imx200a \
 	libmmcamera_imx200b \
 	libmmcamera_imx241_2 \
-	libmmcamera_imx300h \
-	libmmcamera_imx300l \
+	libmmcamera_imx300 \
 	libmmcamera_isp_abf44 \
 	libmmcamera_isp_bcc44 \
 	libmmcamera_isp_bf_scale_stats46 \
@@ -177,6 +183,7 @@ PRODUCT_PACKAGES += \
 	libmmqjpeg_codec \
 	libmmqjpegdma \
 	libnetmgr \
+	libomx-dts \
 	libperipheral_client \
 	libqcci_legacy \
 	libqdi \
@@ -192,45 +199,6 @@ PRODUCT_PACKAGES += \
 	libqomx_jpegdec \
 	libqomx_jpegenc \
 	libqomx_jpegenc_pipe \
-	libril-qc-qmi-1 \
-	libril-qc-qmi-2 \
-	libril-qcril-hook-oem \
-	librpmb \
-	libsensor1 \
-	libsensor_reg \
-	libsmemlog \
-	libssd \
-	libsystem_health_mon \
-	libta \
-	libtime_genoff \
-	libxml \
-	gatekeeper.msm8994 \
-	sensors.msm8994 \
-	libQSEEComAPI \
-	libadsprpc \
-	libconfigdb \
-	libdiag \
-	libdrmfs \
-	libdrmtime \
-	libdsi_netctrl \
-	libdsutils \
-	libidl \
-	liblqe \
-	libmdmdetect \
-	libmiscta \
-	libnetmgr \
-	libperipheral_client \
-	libqcci_legacy \
-	libqdi \
-	libqdp \
-	libqmi \
-	libqmi_cci \
-	libqmi_client_helper \
-	libqmi_client_qmux \
-	libqmi_common_so \
-	libqmi_csi \
-	libqmi_encdec \
-	libqmiservices \
 	libril-qc-qmi-1 \
 	libril-qc-qmi-2 \
 	libril-qcril-hook-oem \
